@@ -1,0 +1,978 @@
+{
+  "version": "1.1.0",
+  "diagrams": [
+    {
+      "ordinal": 0,
+      "scrollPosition": {
+        "x": 0,
+        "y": 0
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 2297.1143880136892,
+            "y": 219.5812194860182
+          },
+          "nodeIndex": "HumanResources Department",
+          "nodeLineageTag": "6704df0c-9fbe-413e-86db-312e665aa8cf",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1777.8994072131286,
+            "y": 424.64713604740973
+          },
+          "nodeIndex": "HumanResources Employee",
+          "nodeLineageTag": "44081a99-9a72-4027-91bf-aa7d979da42f",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2173.6646089189376,
+            "y": 408.95734340978015
+          },
+          "nodeIndex": "HumanResources EmployeeDepartmentHistory",
+          "nodeLineageTag": "8be0051f-1128-42bb-8c84-c52b9acf8c10",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2133.111730522894,
+            "y": 640.46478706736343
+          },
+          "nodeIndex": "HumanResources EmployeePayHistory",
+          "nodeLineageTag": "e158c421-d621-465b-b4bb-107f6064d112",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2072.7282946957343,
+            "y": 842.20838652972907
+          },
+          "nodeIndex": "HumanResources JobCandidate",
+          "nodeLineageTag": "2e259064-4bca-48c3-ae28-d9cfc859a5cc",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 920.36108148465655,
+            "y": 1302.3508838226999
+          },
+          "nodeIndex": "HumanResources Shift",
+          "nodeLineageTag": "154a3477-cc0c-4cd5-b5a0-946ff27f67bb",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3388.9706203351875,
+            "y": 1273.643731884702
+          },
+          "nodeIndex": "Person Address",
+          "nodeLineageTag": "1677484b-1d65-4bd5-b488-41cb1245da83",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2368.9176743570083,
+            "y": 2420.4962848929795
+          },
+          "nodeIndex": "Person AddressType",
+          "nodeLineageTag": "60d0e3da-4e19-4fcd-8c7d-cd39f2d462b7",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2620.3775293269168,
+            "y": 1145.3685255046839
+          },
+          "nodeIndex": "Person BusinessEntity",
+          "nodeLineageTag": "fe397029-db88-4cbe-bb29-f29c0128d8d7",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2484.8334423203391,
+            "y": 1663.9936321428177
+          },
+          "nodeIndex": "Person BusinessEntityAddress",
+          "nodeLineageTag": "e57ff364-b3e7-4dc0-b8c8-8d906372b592",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1273.2029076034,
+            "y": 1855.0700029782329
+          },
+          "nodeIndex": "Person BusinessEntityContact",
+          "nodeLineageTag": "c5b73d55-e1f9-4dc9-98d0-cc2ce4024dcf",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2410.230989809806,
+            "y": 672.3168416730332
+          },
+          "nodeIndex": "Person ContactType",
+          "nodeLineageTag": "dc64aa6e-4d35-41ca-9330-940e9132b7e6",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2993.2054186293785,
+            "y": 1164.1828012361402
+          },
+          "nodeIndex": "Person CountryRegion",
+          "nodeLineageTag": "4e4a7c17-6872-48bb-88f4-df66d545f201",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2650.3237869498575,
+            "y": 461.765201705809
+          },
+          "nodeIndex": "Person EmailAddress",
+          "nodeLineageTag": "c30c954e-a11c-43d3-83c7-6398e7a7cb94",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2965.5184395518868,
+            "y": 473.66925520553468
+          },
+          "nodeIndex": "Person Password",
+          "nodeLineageTag": "74606e35-b27c-4645-9753-bfd629e7919c",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2644.7062827801378,
+            "y": 835.43445691134366
+          },
+          "nodeIndex": "Person Person",
+          "nodeLineageTag": "8712e515-393e-4d12-ae9c-c68d3d8fbe3a",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2967.2956743388181,
+            "y": 135.90405349972571
+          },
+          "nodeIndex": "Person PersonPhone",
+          "nodeLineageTag": "b6cc542c-a5c8-4c60-954d-8f40f5022388",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3361.2836412576958,
+            "y": 231.4302115670871
+          },
+          "nodeIndex": "Person PhoneNumberType",
+          "nodeLineageTag": "19392842-ffa2-4d23-b6ad-d006b2cf74ea",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3784.7358220409965,
+            "y": 1068.3632547239549
+          },
+          "nodeIndex": "Person StateProvince",
+          "nodeLineageTag": "c1d37a9f-a5ea-4a4f-99b1-63b1c2567714",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1316.1262831904655,
+            "y": 1202.2589907346392
+          },
+          "nodeIndex": "Production BillOfMaterials",
+          "nodeLineageTag": "af95f52f-9690-46e5-bc10-e2f56782848a",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 154.09470450729214,
+            "y": 826.53788590023032
+          },
+          "nodeIndex": "Production Culture",
+          "nodeLineageTag": "3cec9e47-0379-4170-abc0-fde0c0bca4a5",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1828.8471259152989,
+            "y": 886.41233775321871
+          },
+          "nodeIndex": "Production Document",
+          "nodeLineageTag": "31963e7b-b5d4-4cb2-ae7e-9a2b9a4970ee",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 820.90535752794722,
+            "y": 1536.9322751612872
+          },
+          "nodeIndex": "Production Illustration",
+          "nodeLineageTag": "e9bf4618-c8f2-4b8d-b2eb-e3e47d403d7d",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1123.6721681301137,
+            "y": 940.58568211689089
+          },
+          "nodeIndex": "Production Location",
+          "nodeLineageTag": "45d59f17-b1ac-4d40-9292-de46bf4cf6f2",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1156.2535481881096,
+            "y": 731.17505891629935
+          },
+          "nodeIndex": "Production ProductCostHistory",
+          "nodeLineageTag": "5910f963-5e33-47df-9058-acce523a1f7e",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 0,
+            "y": 1140.3030876060393
+          },
+          "nodeIndex": "Production ProductDescription",
+          "nodeLineageTag": "29ac5c64-f8cf-4846-b56f-45586cf5613d",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2224.6123276211079,
+            "y": 1115.1652086970644
+          },
+          "nodeIndex": "Production ProductDocument",
+          "nodeLineageTag": "629d17c1-888f-44f1-ab29-0e69ca39d592",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 481.67250419178208,
+            "y": 1645.6471066742297
+          },
+          "nodeIndex": "Production ProductInventory",
+          "nodeLineageTag": "8b0c2523-8749-4ec8-9d05-e4ace7bacdaa",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2993.2054186293785,
+            "y": 1600.9658814813611
+          },
+          "nodeIndex": "Production ProductListPriceHistory",
+          "nodeLineageTag": "99960995-ee1d-4a23-8f35-14e203facf70",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 238.71399837308627,
+            "y": 1424.2383303650149
+          },
+          "nodeIndex": "Production ProductModel",
+          "nodeLineageTag": "fd6bd864-1dd1-42e8-8b0e-d1edbb4992e6",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 256.76989778252619,
+            "y": 1110.4731286592059
+          },
+          "nodeIndex": "Production ProductModelIllustration",
+          "nodeLineageTag": "bcbf9db1-3561-4590-955b-767858ef1c1f",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 865.004140617621,
+            "y": 242.62342818495745
+          },
+          "nodeIndex": "Production ProductModelProductDescriptionCulture",
+          "nodeLineageTag": "0a427729-db66-4693-9f56-18309e0cb742",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 469.23893891181206,
+            "y": 516.36702489098661
+          },
+          "nodeIndex": "Production ProductPhoto",
+          "nodeLineageTag": "a8f5b71e-31a2-4c2c-8d4e-a940a10fca28",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 863.90830781932664,
+            "y": 854.13222659679559
+          },
+          "nodeIndex": "Production ProductProductPhoto",
+          "nodeLineageTag": "e4dd680f-f10d-486e-98a6-e25937acabc5",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1585.4832493644521,
+            "y": 2678.6004063898508
+          },
+          "nodeIndex": "Production ProductReview",
+          "nodeLineageTag": "a52efaca-7af9-4a26-9ade-7f435e67a61f",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 634.47920007889525,
+            "y": 1223.1670734554782
+          },
+          "nodeIndex": "Production ScrapReason",
+          "nodeLineageTag": "edaf886a-975a-41a1-8c2b-fb7707de3826",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2020.0319429963788,
+            "y": 2161.0740139826485
+          },
+          "nodeIndex": "Production TransactionHistory",
+          "nodeLineageTag": "2c3da0fc-a656-4828-8034-4be719a0ddcb",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4647.9932673574531,
+            "y": 4337.30470867077
+          },
+          "nodeIndex": "Production TransactionHistoryArchive",
+          "nodeLineageTag": "cb7343df-0223-4eb4-a161-83313e9f0de6",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1941.2094294391841,
+            "y": 1778.7162198269452
+          },
+          "nodeIndex": "Production UnitMeasure",
+          "nodeLineageTag": "02c74f15-9307-435f-a5e2-fb16473bc583",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2279.95902931085,
+            "y": 2092.4814215327542
+          },
+          "nodeIndex": "Production WorkOrder",
+          "nodeLineageTag": "c5222a11-fd07-4095-bb9a-7d9bda65e479",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 564.048511055672,
+            "y": 2100.3703354555255
+          },
+          "nodeIndex": "Production WorkOrderRouting",
+          "nodeLineageTag": "3c2e972c-9bb5-4515-b0d0-721c11aa1c89",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1681.4499238016042,
+            "y": 1316.9510181211363
+          },
+          "nodeIndex": "Purchasing ProductVendor",
+          "nodeLineageTag": "cf869cd9-0380-47e3-8cd1-02e36fb53e34",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1668.968109309209,
+            "y": 1699.3088122768395
+          },
+          "nodeIndex": "Purchasing PurchaseOrderDetail",
+          "nodeLineageTag": "ac05448d-f7f8-4717-965f-9b5ff1f82e38",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1567.5142707560685,
+            "y": 923.8802976521356
+          },
+          "nodeIndex": "Purchasing PurchaseOrderHeader",
+          "nodeLineageTag": "ad845277-94f6-4380-909d-c737974e54e3",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2243.3641142418514,
+            "y": 1581.3540761451604
+          },
+          "nodeIndex": "Purchasing ShipMethod",
+          "nodeLineageTag": "aea795ec-ec1a-4bce-8743-10b7e84b6d1d",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1963.2794724618775,
+            "y": 1265.5436105710305
+          },
+          "nodeIndex": "Purchasing Vendor",
+          "nodeLineageTag": "cd2069d4-8d2b-412e-8696-3444193206d1",
+          "size": {
+            "height": 272,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3503.7822602924039,
+            "y": 959.878530178893
+          },
+          "nodeIndex": "Sales CountryRegionCurrency",
+          "nodeLineageTag": "6b03716e-7ef2-4d6e-bbc3-b2bb0dabfd56",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1433.08192420949,
+            "y": 563.20596729654881
+          },
+          "nodeIndex": "Sales CreditCard",
+          "nodeLineageTag": "2746bd14-072f-4fad-aada-fea4ba702d8e",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 4251.8325381507548,
+            "y": 2526.3806791114666
+          },
+          "nodeIndex": "Sales Currency",
+          "nodeLineageTag": "b3e04d10-cb66-4df9-a5d3-af7e220a8f24",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3137.7232553926247,
+            "y": 2424.4159194041067
+          },
+          "nodeIndex": "Sales CurrencyRate",
+          "nodeLineageTag": "979bffb5-bc9d-49b3-a670-3648d7047bac",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3016.1427310327258,
+            "y": 1322.9959499848364
+          },
+          "nodeIndex": "Sales Customer",
+          "nodeLineageTag": "c212c335-8f7d-4b56-bbbc-1338a6fe509b",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3463.2376093088083,
+            "y": 2110.6507176982977
+          },
+          "nodeIndex": "Sales PersonCreditCard",
+          "nodeLineageTag": "adb156bb-909c-413e-b309-a3e832ff1ba4",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3436.2366861917558,
+            "y": 802.34964945688625
+          },
+          "nodeIndex": "Sales SalesOrderHeaderSalesReason",
+          "nodeLineageTag": "921f11c4-825d-4033-86e9-046d85302df0",
+          "size": {
+            "height": 152,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2639.1293159476604,
+            "y": 1962.7310831871705
+          },
+          "nodeIndex": "Sales SalesPerson",
+          "nodeLineageTag": "15345043-0d13-4fbe-95a2-f2e4885d8b47",
+          "size": {
+            "height": 296,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1382.1342055073196,
+            "y": 265.105878052962
+          },
+          "nodeIndex": "Sales SalesPersonQuotaHistory",
+          "nodeLineageTag": "3d32e4a6-b111-4f1b-869c-5050d1ac02bc",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3856.0673364449453,
+            "y": 2424.4159194041067
+          },
+          "nodeIndex": "Sales SalesReason",
+          "nodeLineageTag": "7abeac70-4335-41d6-bfd1-2d8395722c2b",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3784.7358220409965,
+            "y": 1368.4902922257415
+          },
+          "nodeIndex": "Sales SalesTaxRate",
+          "nodeLineageTag": "6ee7fef3-4c32-43c0-a352-26abb8e38f92",
+          "size": {
+            "height": 248,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2688.2562291575946,
+            "y": 0
+          },
+          "nodeIndex": "Sales SalesTerritory",
+          "nodeLineageTag": "c3422226-92e0-44fe-ba32-12d2bcc14342",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3040.4714844859468,
+            "y": 878.41543319079028
+          },
+          "nodeIndex": "Sales SalesTerritoryHistory",
+          "nodeLineageTag": "fc36ed60-79e3-45a1-a544-15fcd49e7e8f",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 877.43770589759106,
+            "y": 1714.6051337497165
+          },
+          "nodeIndex": "Sales ShoppingCartItem",
+          "nodeLineageTag": "cf69652e-81cd-49f4-b4af-b074781edf75",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1926.5621536482263,
+            "y": 2618.8392156884574
+          },
+          "nodeIndex": "Sales SpecialOffer",
+          "nodeLineageTag": "702b5185-9049-46c2-a0c3-ced2ea985ece",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 842.06569171011688,
+            "y": 2100.3703354555255
+          },
+          "nodeIndex": "Sales SpecialOfferProduct",
+          "nodeLineageTag": "a2ee56f7-ffa2-472c-b052-c24bc172018a",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 2496.0902168284861,
+            "y": 1319.1379594867121
+          },
+          "nodeIndex": "Sales Store",
+          "nodeLineageTag": "2cf78388-6284-4e9a-b002-a5d2f0b06844",
+          "size": {
+            "height": 224,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3388.9706203351875,
+            "y": 1648.8855159924888
+          },
+          "nodeIndex": "Sales.SalesOrderHeader",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 3034.8945176534694,
+            "y": 1891.3357380415609
+          },
+          "nodeIndex": "Sales.SalesOrderDetail",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 891.72211673806851,
+            "y": 451.91093258630644
+          },
+          "nodeIndex": "Production.ProductCategory",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1430.436575648816,
+            "y": 2216.8352046840419
+          },
+          "nodeIndex": "Production.Product",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 1568.4286259148007,
+            "y": 62.881934341600754
+          },
+          "nodeIndex": "Production.ProductSubcategory",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "All tables",
+      "zoomValue": 100,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    },
+    {
+      "ordinal": 1,
+      "scrollPosition": {
+        "x": 0,
+        "y": 75.9999974568685
+      },
+      "nodes": [
+        {
+          "location": {
+            "x": 936.66666666666674,
+            "y": 284.33333333333337
+          },
+          "nodeIndex": "Sales.SalesOrderHeader",
+          "nodeLineageTag": "c8c15b96-96f9-43b6-91d8-ef620c1bfd17",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 1
+        },
+        {
+          "location": {
+            "x": 866.53333409627282,
+            "y": 748.00000000000011
+          },
+          "nodeIndex": "Sales.SalesOrderDetail",
+          "nodeLineageTag": "e3f53d08-42b5-480b-ac2d-d592f62dcda6",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 2
+        },
+        {
+          "location": {
+            "x": 196.86666742960608,
+            "y": 76.666666666666671
+          },
+          "nodeIndex": "Production.ProductCategory",
+          "size": {
+            "height": 176,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 515.20000076293934,
+            "y": 563.33333333333326
+          },
+          "nodeIndex": "Production.Product",
+          "size": {
+            "height": 300,
+            "width": 234
+          },
+          "zIndex": 0
+        },
+        {
+          "location": {
+            "x": 326.53333409627282,
+            "y": 313
+          },
+          "nodeIndex": "Production.ProductSubcategory",
+          "size": {
+            "height": 200,
+            "width": 234
+          },
+          "zIndex": 0
+        }
+      ],
+      "name": "Sales",
+      "zoomValue": 60,
+      "pinKeyFieldsToTop": false,
+      "showExtraHeaderInfo": false,
+      "hideKeyFieldsWhenCollapsed": false,
+      "tablesLocked": false
+    }
+  ],
+  "selectedDiagram": "Sales",
+  "defaultDiagram": "All tables"
+}
