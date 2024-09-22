@@ -26475,6 +26475,30 @@
                 "relationship": "a84063fa-3e5f-420a-b9d1-4048fc30db6d"
               }
             ]
+          },
+          {
+            "name": "_OrderDateYearMonth",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "string",
+            "expression": [
+              "",
+              "// Concatenate year and month of the date in string format to show as categories in charts",
+              "CONCATENATE (",
+              "    YEAR ( 'Sales.SalesOrderHeader'[OrderDate] ),",
+              "    CONCATENATE ( \" - \", FORMAT ( 'Sales.SalesOrderHeader'[OrderDate], \"MMMMM\" ) )",
+              ")",
+              "// , MONTH ( 'Sales.SalesOrderHeader'[OrderDate] )",
+              ""
+            ],
+            "isDataTypeInferred": true,
+            "lineageTag": "df5efa3b-cf5b-4aa0-97af-f66546148420",
+            "summarizeBy": "none",
+            "type": "calculated"
           }
         ],
         "lineageTag": "c8c15b96-96f9-43b6-91d8-ef620c1bfd17",
@@ -32343,6 +32367,62 @@
           }
         ],
         "showAsVariationsOnly": true
+      },
+      {
+        "name": "_Measures",
+        "annotations": [
+          {
+            "name": "PBI_Id",
+            "value": "13b0491df614455ca6dcc370ac487c42"
+          },
+          {
+            "name": "436ba87b-9c83-4389-a31b-ebd06a36be98",
+            "value": "{\"Expression\":\"\"}"
+          }
+        ],
+        "columns": [
+          {
+            "name": "Column",
+            "annotations": [
+              {
+                "name": "SummarizationSetBy",
+                "value": "Automatic"
+              }
+            ],
+            "dataType": "int64",
+            "formatString": "0",
+            "isDataTypeInferred": true,
+            "isNameInferred": true,
+            "lineageTag": "bb5576dc-d938-4cbe-a854-88c3c5b11e83",
+            "sourceColumn": "[Column]",
+            "summarizeBy": "sum",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "lineageTag": "a833c1d3-8669-4631-a57b-841b9666463a",
+        "measures": [
+          {
+            "name": "_TotalSalesSum",
+            "annotations": [
+              {
+                "name": "PBI_FormatHint",
+                "value": "{\"isGeneralNumber\":true}"
+              }
+            ],
+            "expression": "SUM('Sales.SalesOrderDetail'[LineTotal])",
+            "lineageTag": "4fe62eee-3ff2-46d9-8c49-7a6bc378ae4c"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "_Measures",
+            "mode": "import",
+            "source": {
+              "expression": "Row(\"Column\", BLANK())",
+              "type": "calculated"
+            }
+          }
+        ]
       }
     ]
   }
