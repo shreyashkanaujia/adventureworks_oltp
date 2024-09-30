@@ -1,4 +1,5 @@
 # This code can check if the brackets in a string are correctly placed
+# Run the function with the string below to check the brackets placement
 def isValid(s: str) -> bool:
     list1 = []
     dict1 = {")": "(", "]": "[", "}": "{"}
@@ -16,8 +17,7 @@ def isValid(s: str) -> bool:
         print("problem")
     return 0
 # 
-# Run the function with the string below to check the brackets placement
-isValid("(){(([({})]))}")
+# isValid("(){(([({})]))}")
 
 ##################################################
 
@@ -36,4 +36,33 @@ def removeDuplicates(nums: list[int]) -> int:
             list1.append("_")
         return len(list1)
 # 
-removeDuplicates([1,1,2])
+# removeDuplicates([1,1,2])
+
+##################################################
+
+# https://leetcode.com/problems/remove-element/
+def removeElement(nums: List[int], val: int) -> int:
+        j = 0
+        for itr in range(len(nums)):
+             if nums[itr] != val:
+                  nums[j] = nums[itr]
+                  j += 1
+        #
+        return nums
+# 
+# removeElement([3,2,2,3], 3)
+
+def strStr(haystack: str, needle: str) -> int:
+        findLen = len(needle)
+        findHay = len(haystack)
+        count = 0
+        if findHay < findLen:
+            return -1
+        for itr in range(findHay):
+            if haystack[itr]==needle[0] and itr+findLen<=findHay:
+                 if haystack[itr:(itr+findLen)] == needle:
+                      count += 1
+        if count == 0: return -1
+        return count
+# 
+strStr("sadbutsad", "sad")
