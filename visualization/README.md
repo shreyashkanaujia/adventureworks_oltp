@@ -1,2 +1,2 @@
 # adventureworks_oltp
-Data analysis based on microsoft's AdventureWorks dataset
+This folder should have all the PBI dashboard projects
