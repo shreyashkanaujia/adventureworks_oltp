@@ -1,5 +1,4 @@
-# This code can check if the brackets in a string are correctly placed
-# Run the function with the string below to check the brackets placement
+# https://leetcode.com/problems/valid-parentheses/description/
 def isValid(s: str) -> bool:
     list1 = []
     dict1 = {")": "(", "]": "[", "}": "{"}
@@ -52,17 +51,20 @@ def removeElement(nums: List[int], val: int) -> int:
 # 
 # removeElement([3,2,2,3], 3)
 
+##################################################
+
+# https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/
 def strStr(haystack: str, needle: str) -> int:
         findLen = len(needle)
         findHay = len(haystack)
-        count = 0
         if findHay < findLen:
             return -1
         for itr in range(findHay):
             if haystack[itr]==needle[0] and itr+findLen<=findHay:
                  if haystack[itr:(itr+findLen)] == needle:
-                      count += 1
-        if count == 0: return -1
-        return count
+                      return itr
+        return -1
 # 
-strStr("sadbutsad", "sad")
+# strStr("sadbutsad", "sad")
+
+##################################################
