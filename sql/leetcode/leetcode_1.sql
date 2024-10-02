@@ -34,3 +34,15 @@ WHERE id IS NOT NULL
 
 --------------------------------------------------
 
+-- https://leetcode.com/problems/list-the-products-ordered-in-a-period/
+SELECT
+    p1.product_name, 
+    SUM(o1.unit) AS unit
+FROM Orders o1 LEFT JOIN Products p1
+ON o1.product_id = p1.product_id
+WHERE YEAR(o1.order_date) = 2020 AND MONTH(o1.order_date) = 2
+GROUP BY p1.product_name
+HAVING SUM(o1.unit) >= 100
+
+--------------------------------------------------
+
